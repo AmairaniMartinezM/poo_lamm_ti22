@@ -5,14 +5,15 @@
     Descripcion:Calcular el area y el perimetro de cualquier triangulo
 """
 
-ladoA = float(input("Ingrese el primer P: \n"))
-ladoB = float(input("Ingrese el segundo P: \n"))
-ladoC = float(input("Ingrese el tercer P: \n"))
-altura = float(input("Ingrese el primer A  \n"))
-base = float(input("Ingrese el segunda A \n"))
+lado_1 = float(input("Ingrese el lado 1: \n"))   #leer el perimetro de un triangulo
+lado_2 = float(input("Ingrese el lado 2 : \n"))  #leer el perimetro de un triangulo
+lado_3 = float(input("Ingrese el lado 3: \n"))  #leer el perimetro de un triangulo
+altura = float(input("Ingrese el altura  \n"))  #leer la altura de un triangulo
 
-perimetro = ladoA + ladoB + ladoC
-area = base * altura / 2
 
-print("el perímetro calculado del triangulo es:",perimetro)
-print("Y su área es de:",area)
+perimetro = lado_1 + lado_2 + lado_3 #calcular el perimetro 
+area = lado_1 * altura / 2   #calcular el area 
+
+print("el perímetro calculado del triangulo es:",perimetro)   #resultado del perimetro 
+print("Y su área es de:",area)    #resultado del area
+ 
