@@ -10,8 +10,6 @@ variable2 = 619 #  variable para almacenar una cadena de caracter
 #print(variable1 + variable2)#  variable para almacenar una cadena de caracter
 print("{} {}". format(variable1, variable2))#  variable para almacenar una cadena de caracter
 
-getattr
-
 
 
 

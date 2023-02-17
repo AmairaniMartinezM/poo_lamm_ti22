@@ -5,7 +5,7 @@
     Descripcion: Calcula e imprime el area y el perimetro de un circulo y un cuadrado
 """
  
-print("calcular el area y perimetro de un circulo")
-print("calcular el area y perimetro de un cuadrado")
+print("calcular el area y perimetro de un circulo") # mostrar las variables en la pantalla
+print("calcular el area y perimetro de un cuadrado") # mostrar las variables en la pantalla
 
 

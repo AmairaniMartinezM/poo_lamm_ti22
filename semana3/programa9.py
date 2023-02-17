@@ -1,5 +1,5 @@
 """
-    prueba0.1
+    programa9
     Nombre: Luz Amairani Martinez Monroy
     Fecha: 30/01/2023
     Descripcion:Calcular el area y el perimetro de cualquier triangulo
