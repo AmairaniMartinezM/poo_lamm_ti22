@@ -2,7 +2,7 @@
     Programa3
     Nombre: Luz Amairani Martinez Monroy
     Fecha: 24/01/2023
-    Descripcion: operaciones aridmeticas dentro del print ()
+    Descripcion:formatear cadenas y operaciones aritmeticas usando print y format
 """
 
 variable1 = 10 #  variable para almacenar una cadena de caracter

@@ -1,21 +1,32 @@
-class Persona:
+
+
+class Alumno:
     __nombre = None
-    __email = None
+    __matricula = None
+    __carrera = None
     def __init__(self):
-        print("Persona")
+        print("Alumno")
     def setNombre(self,nombre):
         self.__nombre = nombre
     def getNombre(self):
         return self.__nombre
-    def setEmail(self,email):
-        self.__email = email
-    def getEmail(self):
-        return self.__email
+    def setMatricula(self,matricula):
+        self.__matricula = matricula
+    def getMatricula(self):
+        return self.__matricula
+    def setCarrera(self,carrera):
+        self.__carrera = carrera
+    def getCarrera(self):
+        return self.__carrera
 
-dejah = Persona()
+amairani = Alumno()
 
-dejah.setNombre("Dejah") 
-print (dejah.getNombre())
+amairani.setNombre("Amairani") 
+print (amairani.getNombre())
 
-dejah.setEmail("correo@mascorreo.correo") 
-print (dejah.getEmail())
+amairani.setMatricula("1722110300") 
+print (amairani.getMatricula())
+
+
+amairani.setCarrera("Desarrollo de Software") 
+print (amairani.getCarrera())
