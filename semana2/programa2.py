@@ -2,7 +2,7 @@
     Programa2
     Nombre: Luz Amairani Martinez Monroy
     Fecha: 24/01/2023
-    Descripcion: Formatear cadenas con # y .format
+    Descripcion: Concatenar variables, formatear variables e identificar errores
 """
 
 variable1 = "Hola" #  variable para almacenar una cadena de caracter
