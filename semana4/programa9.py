@@ -1,8 +1,8 @@
 """
-    programa10
+    programa9
     Nombre: Luz Amairani Martinez Monroy
     Fecha: 8/02/2023
-    Descripcion:
+    Descripcion: Programa que por medio de un def nosdelnumero mayor de dos  numeros version 1
 """
 def mayor(numero1, numero2):  #  definición de función usa dapara crear objetos, las cuales son definidas por cada usuario
 

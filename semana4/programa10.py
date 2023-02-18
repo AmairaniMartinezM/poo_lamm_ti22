@@ -1,75 +1,19 @@
 """
-    programa9
+    programa10
     Nombre: Luz Amairani Martinez Monroy
-    Fecha: 31/01/2023
-    Descripcion:Diferentes versiones de if (11)
+    Fecha: 8/02/2023
+    Descripcion:Programa que por medio de un def nosdelnumero mayor de dos  numeros version 2
 """
-n1 = int(input("n1")) # convierte la entrada en una cadena # input devuelve la cadena
-n2 = int(input("n2")) # convierte la entrada en una cadena # input devuelve la cadena
-
-if n1 > n2:  # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
-    print (n1) # mostrar texto en pantalla
-
-if n2 > n1: # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
-        print(n2) # mostrar texto en pantalla
-if n1 == n2: # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
-    print(None) # mostrar texto en pantalla
-
-
-if n2 > n1: # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
-    print (n2) # mostrar texto en pantalla
-if n1 > n2: # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
-        print(n1) # mostrar texto en pantalla
-if n1 == n2: # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
-    print(None) # mostrar texto en pantalla
-
-
-if n1 > n2: # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
-    print (n1) # mostrar texto en pantalla
-elif n2 > n1: # Enlaza condiciones
-        print(n2) # mostrar texto en pantalla
-else: # combinar la ejecución de la condición y la iteración
-    print(None) # mostrar texto en pantalla
-
-if n1 < n2: # ejecutar un bloque de código si, y solo si, se cumple una determinada condicion 
-    print (n2) # mostrar texto en pantalla
-elif n2 < n1: # Enlaza condiciones
-        print(n1) # mostrar texto en pantalla
-else: # combinar la ejecución de la condición y la iteración
-    print(None) # mostrar texto en pantalla
-
-if n1 < n2: # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
-    print (n1) # mostrar texto en pantalla
-elif n2 < n1: # Enlaza condiciones
-        print(n2) # mostrar texto en pantalla
-else: # combinar la ejecución de la condición y la iteración
-    print(None) # mostrar texto en pantalla
-
-if n2 < n1: # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
-    print (n1) # mostrar texto en pantalla
-if n1 < n2: # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
-    print(n2) # mostrar texto en pantalla
-if n1 == n2:  # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
-    print(None) # mostrar texto en pantalla
-
-if n1 > n2:  # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
-    if n1 > n2:  # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
-        print(n1) # mostrar texto en pantalla
-else: # combinar la ejecución de la condición y la iteración
-    print(n2) # mostrar texto en pantalla
-
-if n2 >=n1: # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
-    if n2> n1: # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
-        print(n2) # mostrar texto en pantalla
-    else: # combinar la ejecución de la condición y la iteración
-        print(None) # mostrar texto en pantalla
-else: # combinar la ejecución de la condición y la iteración
-    print:(n1) # mostrar texto en pantalla
-
-if n1 == n2: # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
-    print(None) # mostrar texto en pantalla
-elif n1>n2: # Enlaza condiciones
-    print(n1) # mostrar texto en pantalla
-else: # combinar la ejecución de la condición y la iteración
-    print(n2) # mostrar texto en pantalla
-    
+def mayor(numero1:int,numero2:int)->int: #  definición de función usa dapara crear objetos, las cuales son definidas por cada usuario
+	mayor = None # denota falta de valor
+	if numero1>numero2: # ejecutar un bloque de código si, y solo si, se cumple una determinada condición
+		mayor = numero1
+	elif numero2>numero1: # Enlaza condiciones
+		mayor = numero2
+	else:  # combinar la ejecución de la condición y la iteración
+		mayor = None # denota falta de valor
+	return mayor  #  final de la función y continúa la ejecución del programa tras la llamada a la función
+print(mayor(3,2))	# mostrar texto en pantalla
+print(mayor(2,3))	# mostrar texto en pantalla
+print(mayor(3,3))	# mostrar texto en pantalla
+        

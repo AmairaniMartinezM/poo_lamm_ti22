@@ -1,28 +1,20 @@
 """
-    programa4
+    programa14
     Nombre: Luz Amairani Martinez Monroy
     Fecha: 30/01/2023
-    Descripcion: Casting para convertir str en int
+    Descripcion: Clase persona
 """
 
 class Persona:
-    __nombre = None
-    __email = None
-    def __init__(self):
-        print("Persona")
-    def setNombre(self,nombre):
-        self.__nombre = nombre
-    def getNombre(self):
-        return self.__nombre
-    def setEmail(self,email):
-        self.__email = email
-    def getEmail(self):
-        return self.__email
-
-dejah = Persona()
-
-dejah.setNombre("Dejah") 
-print (dejah.getNombre())
-
-dejah.setEmail("correo@mascorreo.correo") 
-print (dejah.getEmail())
+    __nombre = None # denota falta de valor
+    __edad = None # denota falta de valor
+    def __init__(self) -> None: # definicion creada porcualquier usuario y denota falta de valor
+        
+        print("Persona")  # mostrar texto en pantalla
+        
+    def setNombre(self,nombre:str) -> None:  # definicion creada porcualquier usuario y denota falta de valor
+ 
+        self.__nombre = nombre # modo de cálculo para hacer referencia al contenido del objeto
+        
+    def getNombre(self) -> str: # definicion creada porcualquier usuario
+        return self.__nombre #  final de la función y continúa la ejecución del programa tras la llamada a la función

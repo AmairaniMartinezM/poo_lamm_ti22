@@ -1,32 +1,33 @@
+"""
+    programa13
+    Nombre: Luz Amairani Martinez Monroy
+    Fecha: 14/02/2023
+    Descripcion: Herencia
+"""
 
+class Persona:
+    def __init__(self): # definicion creada porcualquier usuario
+          print("Persona") # mostrar texto en pantalla
 
-class Alumno:
-    __nombre = None
-    __matricula = None
-    __carrera = None
-    def __init__(self):
-        print("Alumno")
-    def setNombre(self,nombre):
-        self.__nombre = nombre
-    def getNombre(self):
-        return self.__nombre
-    def setMatricula(self,matricula):
-        self.__matricula = matricula
-    def getMatricula(self):
-        return self.__matricula
-    def setCarrera(self,carrera):
-        self.__carrera = carrera
-    def getCarrera(self):
-        return self.__carrera
+class Alumno(Persona):
+      def __init__(self): # definicion creada porcualquier usuario
+            super().__init__() # permite invocar y conservar un método o atributo de una clase
+            print("Alumno") # mostrar texto en pantalla
 
-amairani = Alumno()
+objeto_persona = Persona()
+objeto_alumno = Alumno()
 
-amairani.setNombre("Amairani") 
-print (amairani.getNombre())
+objeto_persona.nombre ="Dejah Thoris"
+print(objeto_persona.nombre)
 
-amairani.setMatricula("1722110300") 
-print (amairani.getMatricula())
+objeto_alumno.nombre ="John Carter"
+print(objeto_persona.nombre) # mostrar texto en pantalla
 
+objeto_alumno.email ="john@utectulancingo.edu.mx"
+print(objeto_alumno.email) # mostrar texto en pantalla
 
-amairani.setCarrera("Desarrollo de Software") 
-print (amairani.getCarrera())
+print(dir(objeto_persona)) # mostrar texto en pantalla
+print(dir(objeto_alumno)) # mostrar texto en pantalla
+
+    
+
